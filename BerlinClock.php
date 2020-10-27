@@ -1,7 +1,4 @@
 <?php
-
-
-class BerlinClock
-{
+class BerlinClock{
 
 }
