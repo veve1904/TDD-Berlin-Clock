@@ -3,7 +3,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-class TestBerlinClock extends TestCase
+class BerlinClockTest extends TestCase
 {
 
 }
