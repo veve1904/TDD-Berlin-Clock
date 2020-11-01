@@ -49,4 +49,13 @@ class BerlinClock{
         }
         return $string;
     }
+    public function calculateSeconds($timer){
+        $var = explode(":", $timer);
+        $seconds = strval($var[2]);
+        $string = "";
+        if ($seconds % 2 == 0){
+            $string .= "R";
+        }
+        return $string;
+    }
 }
