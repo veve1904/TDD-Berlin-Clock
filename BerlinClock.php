@@ -17,7 +17,7 @@ class BerlinClock{
     public function calculateMinutesBy5($timer){
         $var = explode(":", $timer);
         $minutes = strval($var[1]);
-        $mod = (($minutes/60) * 100) % 12;
+        $mod = (($minutes/60) * 12) % 12;
         $string = "";
         for($i = 0; $i < $mod; $i++){
             if($mod % 3 == 0){
