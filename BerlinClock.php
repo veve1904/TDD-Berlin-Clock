@@ -58,4 +58,15 @@ class BerlinClock{
         }
         return $string;
     }
+
+    public function calculateTime($timer){
+        $string = $this->calculateSeconds($timer);
+        $string .= 'c'. $this->calculateHoursBy5($timer);
+        $string .= 'c'. $this->calculateHours($timer);
+        $string .= 'c'. $this->calculateMinutesBy5($timer);
+        $string .= 'c'. $this->calculateMinutes($timer);
+
+        return $string;
+
+    }
 }

@@ -14,14 +14,12 @@ class BerlinClockTest extends TestCase {
         $this->assertEquals("",$actual);
 
     }
-
     public function test_CalculateMinutes_give12h01_returnOneY(){
         $test = new BerlinClock();
         $timer = "12:01:00";
         $actual = $test->calculateMinutes($timer);
         $this->assertEquals("Y",$actual);
     }
-
     public function test_CalculateMinutes_give12h02_returnTwoY(){
         $test = new BerlinClock();
         $timer = "12:02:00";
@@ -199,6 +197,11 @@ class BerlinClockTest extends TestCase {
         $actual = $test->calculateSeconds($timer);
         $this->assertEquals("",$actual);
     }
-
-
+    // c = Commas
+    public function test_CalculateTime_give00h00m00_returnRcccc(){
+        $test = new BerlinClock();
+        $timer = "00:00:00";
+        $actual = $test->calculateTime($timer);
+        $this->assertEquals("Rcccc",$actual);
+    }
 }
