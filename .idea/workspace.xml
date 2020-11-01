@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d46d38d2-63a0-4497-8488-3608f515ea0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BerlinClock.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BerlinClockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,11 +11,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1jT0N6uCpwKhrmpcEzp20HJZfyb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,8 +71,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\TDD-Berlin-Clock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.BerlinClockTest.php">
     <configuration name="BerlinClockTest.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TDD-Berlin-Clock/BerlinClockTest.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="BerlinClockTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 5.6" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="BerlinClockTest" coverage_engine="PHPDBG" file="$PROJECT_DIR$/BerlinClockTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -49,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603812730936</updated>
-      <workItem from="1603812732056" duration="1682000" />
+      <workItem from="1603812732056" duration="2610000" />
+      <workItem from="1604235953072" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603812810249</created>
@@ -85,6 +140,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="356" y="67" key="#CLI_Interpreters" timestamp="1603814793914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="67" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1603814793914" />
     <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1603813306033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -93,22 +152,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603812751974" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603813945501">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603815387012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603813945501" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603813945501">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603815387012" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603815387012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603813945501" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603813945501">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603815387012" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603815387012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603813945501" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603813945501">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603815387012" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603815387012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603813945501" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603815387012" />
     <state x="591" y="135" key="NewPhpClassDialog" timestamp="1603813870022">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
