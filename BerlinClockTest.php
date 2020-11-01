@@ -29,7 +29,25 @@ class BerlinClockTest extends TestCase {
         $this->assertEquals("YY",$actual);
     }
 
+    public function test_CalculateMinutes_give12h03_returnThreeY(){
+        $test = new BerlinClock();
+        $timer = "12:03:00";
+        $actual = $test->calculateMinutes($timer);
+        $this->assertEquals("YYY",$actual);
+    }
 
+    public function test_CalculateMinutes_give12h04_returnFourY(){
+        $test = new BerlinClock();
+        $timer = "12:04:00";
+        $actual = $test->calculateMinutes($timer);
+        $this->assertEquals("YYYY",$actual);
+    }
+    public function test_CalculateMinutes_give12h05_returnNothing(){
+        $test = new BerlinClock();
+        $timer = "12:05:00";
+        $actual = $test->calculateMinutes($timer);
+        $this->assertEquals("",$actual);
+    }
 
 
 }
